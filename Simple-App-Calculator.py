@@ -62,7 +62,7 @@ def exit_program():
 
 # create the GUI window and set its title
 root = tk.Tk()
-root.title("Basic Calculator")
+root.title("Simple App Calculator")
 root.geometry("350x350")
 
 # setting the weights of the columns and rows to make them responsive
