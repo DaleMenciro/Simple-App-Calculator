@@ -54,6 +54,8 @@ operation_label.grid(row=0, column=0)
 addition_radio = tk.Radiobutton(root, text="Addition", variable=operation_var, value="Addition")
 addition_radio.grid(row=1, column=0)
 
+subtraction_radio = tk.Radiobutton(root, text="Subtraction", variable=operation_var, value="Subtraction")
+subtraction_radio.grid(row=2, column=0)
 # create Entry fields
 
 # create a button to perform the arithmetic operation
