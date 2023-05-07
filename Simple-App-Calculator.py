@@ -106,6 +106,8 @@ result_label = tk.Label(root, text="Result:")
 result_label.grid(row=4, column=1, sticky="NSEW")
 
 # create buttons for user to clear
+clear_button = tk.Button(root, text="Clear", command=clear)
+clear_button.grid(row=5, column=0, sticky="NSEW")
 
 # create buttons for user to clear
 
