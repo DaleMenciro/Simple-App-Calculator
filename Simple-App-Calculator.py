@@ -74,6 +74,7 @@ root.rowconfigure(2, weight=1)
 root.rowconfigure(3, weight=1)
 root.rowconfigure(4, weight=1)
 root.rowconfigure(5, weight=1)
+root.rowconfigure(6, weight=1)
 
 # create a variable to store the user's selected arithmetic operation
 operation_var = tk.StringVar(value="Addition")
