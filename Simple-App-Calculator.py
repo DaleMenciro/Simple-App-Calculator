@@ -57,6 +57,8 @@ def try_again():
     messagebox.showinfo("Try Again", "Please enter new values and operation.")
 
 # function to exit the program
+def exit_program():
+    root.destroy()
 
 # create the GUI window and set its title
 root = tk.Tk()
