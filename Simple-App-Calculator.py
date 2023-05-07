@@ -37,7 +37,7 @@ def calculate():
         elif operation == "Division":
             result = divide(num1, num2)
 
-            result_label.config(text=f"Result: {result}")
+        result_label.config(text=f"Result: {result}")
     #Exception for value error
     except ValueError:
         messagebox.showerror("Error", "Invalid input! Please enter a valid number.")
