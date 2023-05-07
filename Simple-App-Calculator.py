@@ -45,7 +45,11 @@ def calculate():
     except ZeroDivisionError as e:
         messagebox.showerror("Error", e)
 
-# function to clear
+# function to clear and result label
+def clear():
+    num1_entry.delete(0, tk.END)
+    num2_entry.delete(0, tk.END)
+    result_label.config(text="Result:")
 
 # function to allow user to try again
 
