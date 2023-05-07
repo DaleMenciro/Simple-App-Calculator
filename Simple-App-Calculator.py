@@ -52,6 +52,8 @@ def clear():
     result_label.config(text="Result:")
 
 # function to allow user to try again
+def try_again():
+    clear()
 
 # function to exit the program
 
