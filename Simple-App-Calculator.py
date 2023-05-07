@@ -24,6 +24,7 @@ def calculate():
     try:
         # get user inputs from Entry fields and option selected in Radiobutton
         num1 = float(num1_entry.get())
+        num2 = float(num2_entry.get())
         # execute selected arithmeric operation
     #Exception for value error
     except ValueError:
