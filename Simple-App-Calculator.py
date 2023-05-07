@@ -34,6 +34,8 @@ def calculate():
             result = subtract(num1, num2)
         elif operation == "Multiplication":
             result = multiply(num1, num2)
+        elif operation == "Division":
+            result = divide(num1, num2)
     #Exception for value error
     except ValueError:
     #Exception for zero division error
