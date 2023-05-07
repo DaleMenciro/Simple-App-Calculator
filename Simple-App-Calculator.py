@@ -30,6 +30,8 @@ def calculate():
         # execute selected arithmeric operation
         if operation == "Addition":
             result = add(num1, num2)
+        elif operation == "Subtraction":
+            result = subtract(num1, num2)
     #Exception for value error
     except ValueError:
     #Exception for zero division error
