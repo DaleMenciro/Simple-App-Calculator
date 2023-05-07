@@ -70,6 +70,9 @@ num1_label.grid(row=0, column=1)
 num1_entry = tk.Entry(root)
 num1_entry.grid(row=1, column=1)
 
+num2_label = tk.Label(root, text="Enter second number:")
+num2_entry = tk.Entry(root)
+num2_entry.grid(row=2, column=1)
 # create a button to perform the arithmetic operation
 
 # create a label to display the result
