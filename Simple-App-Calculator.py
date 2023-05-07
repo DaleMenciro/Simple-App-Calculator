@@ -109,6 +109,9 @@ result_label.grid(row=4, column=1, sticky="NSEW")
 clear_button = tk.Button(root, text="Clear", command=clear)
 clear_button.grid(row=5, column=0, sticky="NSEW")
 
+try_again_button = tk.Button(root, text="Try Again", command=try_again)
+try_again_button.grid(row=5, column=1, sticky="NSEW")
+
 # create buttons for user to clear
 
 # run the GUI window
