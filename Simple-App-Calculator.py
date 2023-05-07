@@ -110,3 +110,4 @@ result_label.grid(row=4, column=1, sticky="NSEW")
 # create buttons for user to clear
 
 # run the GUI window
+root.mainloop()
