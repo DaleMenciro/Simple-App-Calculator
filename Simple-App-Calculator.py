@@ -98,6 +98,8 @@ num2_label = tk.Label(root, text="Enter second number:")
 num2_entry = tk.Entry(root)
 num2_entry.grid(row=2, column=1)
 # create a button to perform the arithmetic operation
+calculate_button = tk.Button(root, text="Calculate", command=calculate)
+calculate_button.grid(row=3, column=1, sticky="NSEW")
 
 # create a label to display the result
 result_label = tk.Label(root, text="Result:")
