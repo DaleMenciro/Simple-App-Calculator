@@ -29,3 +29,29 @@ def calculate():
     except ValueError:
     #Exception for zero division error
     except ZeroDivisionError as e:
+
+# function to clear
+
+# function to allow user to try again
+
+# function to exit the program
+
+# create the GUI window and set its title
+
+# setting the weights of the columns and rows to make them responsive
+
+# create a label to prompt the user
+
+# create Radiobuttons for each arithmetic operation and store in the operation_var variable
+
+# create Entry fields
+
+# create a button to perform the arithmetic operation
+
+# create a label to display the result
+
+# create buttons for user to clear
+
+# create buttons for user to clear
+
+# run the GUI window
