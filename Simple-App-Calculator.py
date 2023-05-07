@@ -36,6 +36,8 @@ def calculate():
             result = multiply(num1, num2)
         elif operation == "Division":
             result = divide(num1, num2)
+
+            result_label.config(text=f"Result: {result}")
     #Exception for value error
     except ValueError:
     #Exception for zero division error
