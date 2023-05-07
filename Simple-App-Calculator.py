@@ -64,6 +64,11 @@ division_radio = tk.Radiobutton(root, text="Division", variable=operation_var, v
 division_radio.grid(row=4, column=0)
 
 # create Entry fields
+num1_label = tk.Label(root, text="Enter first number:")
+num1_label.grid(row=0, column=1)
+
+num1_entry = tk.Entry(root)
+num1_entry.grid(row=1, column=1)
 
 # create a button to perform the arithmetic operation
 
