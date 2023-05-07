@@ -14,8 +14,9 @@ def multiply(x, y):
     return x * y
 
 def divide(x, y):
-    # raise an exception if y is 0 to avoid division by zero error
-
+    # raise an exception if y is 0 to avoid division by zero error  
+    if y == 0:
+        raise ZeroDivisionError("Cannot divide by zero!")
     return x / y
 
 # function to perform arithmetic operation according to user input
