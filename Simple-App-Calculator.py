@@ -26,7 +26,7 @@ def calculate():
         num1 = float(num1_entry.get())
         num2 = float(num2_entry.get())
         operation = operation_var.get()
-        
+
         # execute selected arithmeric operation
     #Exception for value error
     except ValueError:
@@ -79,6 +79,8 @@ num2_entry.grid(row=2, column=1)
 # create a button to perform the arithmetic operation
 
 # create a label to display the result
+result_label = tk.Label(root, text="Result:")
+result_label.grid(row=4, column=1, sticky="NSEW")
 
 # create buttons for user to clear
 
