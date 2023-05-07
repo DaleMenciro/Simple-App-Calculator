@@ -54,6 +54,7 @@ def clear():
 # function to allow user to try again
 def try_again():
     clear()
+    messagebox.showinfo("Try Again", "Please enter new values and operation.")
 
 # function to exit the program
 
