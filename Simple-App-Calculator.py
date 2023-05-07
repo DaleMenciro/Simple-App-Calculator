@@ -40,6 +40,7 @@ def calculate():
             result_label.config(text=f"Result: {result}")
     #Exception for value error
     except ValueError:
+        messagebox.showerror("Error", "Invalid input! Please enter a valid number.")
     #Exception for zero division error
     except ZeroDivisionError as e:
 
