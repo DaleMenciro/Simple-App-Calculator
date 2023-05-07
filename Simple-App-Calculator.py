@@ -43,7 +43,9 @@ root.geometry("350x350")
 
 # setting the weights of the columns and rows to make them responsive
 
-# create a label to prompt the user
+# create a label to prompt the user for arithmeric operation
+operation_label = tk.Label(root, text="Select operation:")
+operation_label.grid(row=0, column=0)
 
 # create Radiobuttons for each arithmetic operation and store in the operation_var variable
 
