@@ -51,6 +51,8 @@ operation_label = tk.Label(root, text="Select operation:")
 operation_label.grid(row=0, column=0)
 
 # create Radiobuttons for each arithmetic operation and store in the operation_var variable
+addition_radio = tk.Radiobutton(root, text="Addition", variable=operation_var, value="Addition")
+addition_radio.grid(row=1, column=0)
 
 # create Entry fields
 
