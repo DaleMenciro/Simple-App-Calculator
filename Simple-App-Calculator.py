@@ -103,26 +103,28 @@ num1_entry = tk.Entry(root)
 num1_entry.grid(row=1, column=1)
 
 num2_label = tk.Label(root, text="Enter second number:")
+num2_label.grid(row=2, column=1)
+
 num2_entry = tk.Entry(root)
-num2_entry.grid(row=2, column=1)
+num2_entry.grid(row=3, column=1)
 # create a button to perform the arithmetic operation
 calculate_button = tk.Button(root, text="Calculate", command=calculate)
-calculate_button.grid(row=3, column=1, sticky="NSEW")
+calculate_button.grid(row=4, column=1, sticky="NSEW")
 
 # create a label to display the result
 result_label = tk.Label(root, text="Result:")
-result_label.grid(row=4, column=1, sticky="NSEW")
+result_label.grid(row=5, column=1, sticky="NSEW")
 
 # create buttons for user to clear
 clear_button = tk.Button(root, text="Clear", command=clear)
-clear_button.grid(row=5, column=0, sticky="NSEW")
+clear_button.grid(row=6, column=0, sticky="NSEW")
 
 try_again_button = tk.Button(root, text="Try Again", command=try_again)
-try_again_button.grid(row=5, column=1, sticky="NSEW")
+try_again_button.grid(row=6, column=1, sticky="NSEW")
 
 # create buttons for user to clear
 exit_button = tk.Button(root, text="Exit", command=exit_program)
-exit_button.grid(row=5, column=2, sticky="NSEW")
+exit_button.grid(row=6, column=2, sticky="NSEW")
 
 # run the GUI window
 root.mainloop()
