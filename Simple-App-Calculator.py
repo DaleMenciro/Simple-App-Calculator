@@ -66,6 +66,14 @@ root.title("Basic Calculator")
 root.geometry("350x350")
 
 # setting the weights of the columns and rows to make them responsive
+root.columnconfigure(0, weight=1)
+root.columnconfigure(1, weight=1)
+root.rowconfigure(0, weight=1)
+root.rowconfigure(1, weight=1)
+root.rowconfigure(2, weight=1)
+root.rowconfigure(3, weight=1)
+root.rowconfigure(4, weight=1)
+root.rowconfigure(5, weight=1)
 
 # create a variable to store the user's selected arithmetic operation
 operation_var = tk.StringVar(value="Addition")
