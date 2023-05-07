@@ -5,13 +5,13 @@ from tkinter import messagebox
 
 # define arithmetic functions
 def add(x, y):
-    return int(x + y)
+    return x + y
 
 def subtract(x, y):
-    return int(x - y)
+    return x - y
 
 def multiply(x, y):
-    return int(x * y)
+    return x * y
 
 def divide(x, y):
     # raise an exception if y is 0 to avoid division by zero error  
