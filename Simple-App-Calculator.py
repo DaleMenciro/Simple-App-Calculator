@@ -113,6 +113,8 @@ try_again_button = tk.Button(root, text="Try Again", command=try_again)
 try_again_button.grid(row=5, column=1, sticky="NSEW")
 
 # create buttons for user to clear
+exit_button = tk.Button(root, text="Exit", command=exit_program)
+exit_button.grid(row=5, column=2, sticky="NSEW")
 
 # run the GUI window
 root.mainloop()
