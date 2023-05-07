@@ -43,6 +43,7 @@ def calculate():
         messagebox.showerror("Error", "Invalid input! Please enter a valid number.")
     #Exception for zero division error
     except ZeroDivisionError as e:
+        messagebox.showerror("Error", e)
 
 # function to clear
 
