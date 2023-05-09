@@ -4,20 +4,20 @@ import tkinter as tk
 from tkinter import messagebox
 
 # define arithmetic functions
-def add(x, y):
-    return x + y
+def add(first_number, second_number):
+    return first_number + second_number
 
-def subtract(x, y):
-    return x - y
+def subtract(first_number, second_number):
+    return first_number - second_number
 
-def multiply(x, y):
-    return x * y
+def multiply(first_number, second_number):
+    return first_number * second_number
 
-def divide(x, y):
-    # raise an exception if y is 0 to avoid division by zero error  
-    if y == 0:
+def divide(first_number, second_number):
+    # raise an exception if second_number is 0 to avoid division by zero error  
+    if second_number == 0:
         raise ZeroDivisionError("Cannot divide by zero!")
-    return x / y
+    return first_number / second_number
 
 # function to perform arithmetic operation according to user input
 def calculate():
